@@ -11,25 +11,28 @@
         android:id="@+id/cardView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
         android:background="@drawable/custom_image"
         app:cardCornerRadius="20dp"
         app:cardElevation="4dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="373dp"
-            android:layout_height="496dp"
-            android:layout_marginTop="0dp"
-            android:paddingTop="4dp"
-            android:background="@color/white"
-            android:scaleType="centerCrop"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@mipmap/house6" />
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="373dp"
+                    android:layout_height="496dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@color/white"
+                    android:paddingTop="4dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@mipmap/house6" />
 
     </androidx.cardview.widget.CardView>
 
@@ -37,13 +40,14 @@
         android:id="@+id/textView"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="32dp"
         android:text="Discover Your Dream House"
         android:textAlignment="center"
         android:textColor="#FF0944AC"
         android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
@@ -51,7 +55,7 @@
         android:id="@+id/textView2"
         android:layout_width="174dp"
         android:layout_height="47dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="28dp"
         android:background="@drawable/custom_btn"
         android:clickable="true"
         android:onClick="navigateHome"
